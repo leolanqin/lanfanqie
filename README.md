@@ -56,3 +56,10 @@
 ### mape_ditor
 
 修改pgm地图工具，使用方法可见源码，无需rviz2即可获取地图坐标
+
+### 其他配置
+
+该项目使用开源slamtoolbox和nav2，开发者可根据自身情况自行下载配置，小车硬件部分每个人情况不同不做赘述，
+使用阿里云服务作为远程服务器部署openclaw，
+具体细节可参考：https://developer.aliyun.com/article/1710314
+开发者可根据项目openclaw_server相关代码，根据自身情况自行配置服务器代码
