@@ -1,0 +1,426 @@
+[INFO] [launch]: All log files can be found below /home/wheeltec/.ros/log/2026-07-04-10-22-18-642177-wheeltec-5965
+[INFO] [launch]: Default logging verbosity is set to INFO
+car_mode:mini_mec
+/home/wheeltec/wheeltec_ros2/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_params/param_mini_mec.yaml
+imu_mode:stm32
+ultrasonic_avoid:False
+[INFO] [launch.user]: [ekf launch] carto_slam=false, robot_nav=false
+car_mode:mini_mec
+lidar_type:ls_M10P_uart
+[INFO] [nav2_waypoint_cycle-1]: process started with pid [6053]
+[INFO] [ImuProcessor-2]: process started with pid [6055]
+[INFO] [wheeltec_robot_node-3]: process started with pid [6057]
+[INFO] [joint_state_publisher-4]: process started with pid [6059]
+[INFO] [ekf_node-5]: process started with pid [6061]
+[INFO] [robot_state_publisher-6]: process started with pid [6063]
+[INFO] [static_transform_publisher-7]: process started with pid [6065]
+[INFO] [static_transform_publisher-8]: process started with pid [6067]
+[INFO] [static_transform_publisher-9]: process started with pid [6069]
+[INFO] [static_transform_publisher-10]: process started with pid [6071]
+[INFO] [static_transform_publisher-11]: process started with pid [6073]
+[INFO] [lslidar_driver_node-12]: process started with pid [6075]
+[INFO] [component_container_isolated-13]: process started with pid [6077]
+[static_transform_publisher-7] [WARN] [1783131746.442097406] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-9] [WARN] [1783131746.443571910] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-8] [WARN] [1783131746.445998708] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-10] [WARN] [1783131746.489274067] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-11] [WARN] [1783131746.502382850] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-10] [INFO] [1783131746.811036212] [base_to_gyro]: Spinning until stopped - publishing transform
+[static_transform_publisher-10] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-10] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-10] from 'base_footprint' to 'gyro_link'
+[static_transform_publisher-9] [INFO] [1783131746.812296590] [base_to_link]: Spinning until stopped - publishing transform
+[static_transform_publisher-9] translation: ('0.000000', '0.000000', '0.074000')
+[static_transform_publisher-9] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-9] from 'base_footprint' to 'base_link'
+[static_transform_publisher-7] [INFO] [1783131746.812609758] [base_to_laser]: Spinning until stopped - publishing transform
+[static_transform_publisher-7] translation: ('0.031630', '0.000090', '0.095020')
+[static_transform_publisher-7] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-7] from 'base_footprint' to 'laser'
+[static_transform_publisher-8] [INFO] [1783131746.952024109] [base_to_camera]: Spinning until stopped - publishing transform
+[static_transform_publisher-8] translation: ('0.107090', '0.000320', '0.076200')
+[static_transform_publisher-8] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-8] from 'base_footprint' to 'camera_link'
+[lslidar_driver_node-12] [1m[34m************ Lslidar ROS driver version: 5.1.1 ************[0m
+[robot_state_publisher-6] [WARN] [1783131746.993418464] [robot_state_publisher]: No robot_description parameter, but command-line argument available.  Assuming argument is name of URDF file.  This backwards compatibility fallback will be removed in the future.
+[lslidar_driver_node-12] [1m[34mpcap file: [0m
+[lslidar_driver_node-12] [1m[34mpacket rate: 188[0m
+[lslidar_driver_node-12] [1m[34mframe id: laser[0m
+[lslidar_driver_node-12] [1m[34mpointcloud topic: lslidar_point_cloud[0m
+[lslidar_driver_node-12] [1m[34muse time service: false[0m
+[lslidar_driver_node-12] [1m[34muse first point time: false[0m
+[lslidar_driver_node-12] [1m[34mpublish scan: true[0m
+[lslidar_driver_node-12] [1m[34muse high precision mode: false[0m
+[lslidar_driver_node-12] [1m[34mpublish multiecholaserscan: false[0m
+[lslidar_driver_node-12] [1m[34menable noise filter: false[0m
+[lslidar_driver_node-12] [1m[34mmin range: 0.15[0m
+[lslidar_driver_node-12] [1m[34mmax range: 50[0m
+[lslidar_driver_node-12] [1m[34mM10Plus hz: 10[0m
+[lslidar_driver_node-12] [1m[36mOnly accepting serial data from: /dev/wheeltec_lidar[0m
+[lslidar_driver_node-12] [1m[37mLidar model: M10P[0m
+[static_transform_publisher-11] [INFO] [1783131747.068721070] [base_to_radar]: Spinning until stopped - publishing transform
+[static_transform_publisher-11] translation: ('0.000000', '0.000000', '0.300000')
+[static_transform_publisher-11] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-11] from 'base_footprint' to 'radar'
+[lslidar_driver_node-12] [1m[37mSuccessfully opened serial port/dev/wheeltec_lidar at 500000 baud.[0m
+[lslidar_driver_node-12] [1m[32msart_init_angle[0m
+[lslidar_driver_node-12] [1m[34msart_angle:0--end_angle: 11000[0m
+[lslidar_driver_node-12] [1m[34msart_angle:25000--end_angle: 36000[0m
+[wheeltec_robot_node-3] [INFO] [1783131747.118122445] [wheeltec_robot]: wheeltec_robot Data ready
+[wheeltec_robot_node-3] [INFO] [1783131747.120450034] [wheeltec_robot]: wheeltec_robot serial port opened
+[ekf_node-5] RosFilter<T>::loadParams() - unable to create debug output file /home/wheeltec/debug/file.txt
+[component_container_isolated-13] [INFO] [1783131747.176538675] [nav2_container]: Load Library: /home/wheeltec/wheeltec_ros2/install/nav2_map_server/lib/libmap_server_core.so
+[component_container_isolated-13] [INFO] [1783131747.335351825] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_map_server::CostmapFilterInfoServer>
+[component_container_isolated-13] [INFO] [1783131747.335510575] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_map_server::MapSaver>
+[component_container_isolated-13] [INFO] [1783131747.335553617] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_map_server::MapServer>
+[component_container_isolated-13] [INFO] [1783131747.335590576] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_map_server::MapServer>
+[robot_state_publisher-6] [WARN] [1783131747.434087449] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[robot_state_publisher-6] [INFO] [1783131747.434383366] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-6] [INFO] [1783131747.434498158] [robot_state_publisher]: got segment camera_link
+[robot_state_publisher-6] [INFO] [1783131747.434540116] [robot_state_publisher]: got segment controller_link
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/map_server' in container '/nav2_container'
+[robot_state_publisher-6] [INFO] [1783131747.434576366] [robot_state_publisher]: got segment laser_link
+[robot_state_publisher-6] [INFO] [1783131747.434610992] [robot_state_publisher]: got segment lb_wheel_link
+[robot_state_publisher-6] [INFO] [1783131747.434645325] [robot_state_publisher]: got segment lf_wheel_link
+[robot_state_publisher-6] [INFO] [1783131747.434679283] [robot_state_publisher]: got segment rb_wheel_link
+[robot_state_publisher-6] [INFO] [1783131747.434713700] [robot_state_publisher]: got segment rf_wheel_link
+[component_container_isolated-13] [INFO] [1783131747.437551166] [map_server]: 
+[component_container_isolated-13] 	map_server lifecycle node launched. 
+[component_container_isolated-13] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-13] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-13] [INFO] [1783131747.437983458] [map_server]: Creating
+[component_container_isolated-13] [INFO] [1783131747.444146349] [nav2_container]: Load Library: /home/wheeltec/wheeltec_ros2/install/nav2_controller/lib/libcontroller_server_core.so
+[component_container_isolated-13] [INFO] [1783131747.511644644] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_controller::ControllerServer>
+[component_container_isolated-13] [INFO] [1783131747.511812769] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_controller::ControllerServer>
+[component_container_isolated-13] [INFO] [1783131747.601736037] [controller_server]: 
+[component_container_isolated-13] 	controller_server lifecycle node launched. 
+[component_container_isolated-13] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-13] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-13] [INFO] [1783131747.715204531] [controller_server]: Creating controller server
+[component_container_isolated-13] [INFO] [1783131747.799687661] [local_costmap.local_costmap]: 
+[component_container_isolated-13] 	local_costmap lifecycle node launched. 
+[component_container_isolated-13] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-13] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-13] [INFO] [1783131747.815888993] [local_costmap.local_costmap]: Creating Costmap
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/controller_server' in container '/nav2_container'
+[component_container_isolated-13] [INFO] [1783131747.842892728] [nav2_container]: Load Library: /home/wheeltec/wheeltec_ros2/install/nav2_amcl/lib/libamcl_core.so
+[component_container_isolated-13] [INFO] [1783131747.882893995] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_amcl::AmclNode>
+[component_container_isolated-13] [INFO] [1783131747.883049704] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_amcl::AmclNode>
+[component_container_isolated-13] [INFO] [1783131747.978248902] [amcl]: 
+[component_container_isolated-13] 	amcl lifecycle node launched. 
+[component_container_isolated-13] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-13] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-13] [INFO] [1783131748.000179999] [amcl]: Creating
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/amcl' in container '/nav2_container'
+[component_container_isolated-13] [INFO] [1783131748.057719644] [nav2_container]: Load Library: /home/wheeltec/wheeltec_ros2/install/nav2_smoother/lib/libsmoother_server_core.so
+[component_container_isolated-13] [INFO] [1783131748.102757090] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_smoother::SmootherServer>
+[component_container_isolated-13] [INFO] [1783131748.102905632] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_smoother::SmootherServer>
+[component_container_isolated-13] [INFO] [1783131748.177544403] [smoother_server]: 
+[component_container_isolated-13] 	smoother_server lifecycle node launched. 
+[component_container_isolated-13] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-13] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-13] [INFO] [1783131748.208593773] [smoother_server]: Creating smoother server
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/smoother_server' in container '/nav2_container'
+[component_container_isolated-13] [INFO] [1783131748.218641882] [nav2_container]: Load Library: /home/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager/lib/libnav2_lifecycle_manager_core.so
+[component_container_isolated-13] [INFO] [1783131748.230254202] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_lifecycle_manager::LifecycleManager>
+[component_container_isolated-13] [INFO] [1783131748.230407328] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_lifecycle_manager::LifecycleManager>
+[component_container_isolated-13] [INFO] [1783131748.282489792] [lifecycle_manager_localization]: Creating
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/lifecycle_manager_localization' in container '/nav2_container'
+[component_container_isolated-13] [INFO] [1783131748.311982241] [lifecycle_manager_localization]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[component_container_isolated-13] [INFO] [1783131748.315155083] [nav2_container]: Load Library: /home/wheeltec/wheeltec_ros2/install/nav2_planner/lib/libplanner_server_core.so
+[component_container_isolated-13] [INFO] [1783131748.331122456] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_planner::PlannerServer>
+[component_container_isolated-13] [INFO] [1783131748.331275456] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_planner::PlannerServer>
+[component_container_isolated-13] [INFO] [1783131748.393834655] [lifecycle_manager_localization]: [34m[1mStarting managed nodes bringup...[0m[0m
+[component_container_isolated-13] [INFO] [1783131748.394024614] [lifecycle_manager_localization]: [34m[1mConfiguring map_server[0m[0m
+[component_container_isolated-13] [INFO] [1783131748.395115992] [map_server]: Configuring
+[component_container_isolated-13] [INFO] [map_io]: Loading yaml file: /home/wheeltec/wheeltec_ros2/install/wheeltec_nav2/share/wheeltec_nav2/map/test1.yaml
+[component_container_isolated-13] [DEBUG] [map_io]: resolution: 0.05
+[component_container_isolated-13] [DEBUG] [map_io]: origin[0]: -2.13
+[component_container_isolated-13] [DEBUG] [map_io]: origin[1]: -7.52
+[component_container_isolated-13] [DEBUG] [map_io]: origin[2]: 0
+[component_container_isolated-13] [DEBUG] [map_io]: free_thresh: 0.196
+[component_container_isolated-13] [DEBUG] [map_io]: occupied_thresh: 0.65
+[component_container_isolated-13] [DEBUG] [map_io]: mode: trinary
+[component_container_isolated-13] [DEBUG] [map_io]: negate: 0
+[component_container_isolated-13] [INFO] [map_io]: Loading image_file: /home/wheeltec/wheeltec_ros2/install/wheeltec_nav2/share/wheeltec_nav2/map/test1.pgm
+[component_container_isolated-13] [DEBUG] [map_io]: Read map /home/wheeltec/wheeltec_ros2/install/wheeltec_nav2/share/wheeltec_nav2/map/test1.pgm: 155 X 271 map @ 0.05 m/cell
+[component_container_isolated-13] [INFO] [1783131748.913046002] [lifecycle_manager_localization]: [34m[1mConfiguring amcl[0m[0m
+[component_container_isolated-13] [INFO] [1783131748.913821254] [amcl]: Configuring
+[component_container_isolated-13] [INFO] [1783131748.914262589] [amcl]: initTransforms
+[component_container_isolated-13] [INFO] [1783131749.356523282] [planner_server]: 
+[component_container_isolated-13] 	planner_server lifecycle node launched. 
+[component_container_isolated-13] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-13] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-13] [INFO] [1783131749.395263463] [planner_server]: Creating
+[component_container_isolated-13] [INFO] [1783131749.431416387] [amcl]: initPubSub
+[component_container_isolated-13] [INFO] [1783131749.547321969] [amcl]: Subscribed to map topic.
+[component_container_isolated-13] [INFO] [1783131749.603086984] [lifecycle_manager_localization]: [34m[1mActivating map_server[0m[0m
+[component_container_isolated-13] [INFO] [1783131749.603674861] [map_server]: Activating
+[component_container_isolated-13] [INFO] [1783131749.604353862] [map_server]: Creating bond (map_server) to lifecycle manager.
+[component_container_isolated-13] [INFO] [1783131749.604847364] [amcl]: Received a 155 X 271 map @ 0.050 m/pix
+[joint_state_publisher-4] [INFO] [1783131749.608270122] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+[component_container_isolated-13] [INFO] [1783131749.653556486] [global_costmap.global_costmap]: 
+[component_container_isolated-13] 	global_costmap lifecycle node launched. 
+[component_container_isolated-13] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-13] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-13] [INFO] [1783131749.662372300] [global_costmap.global_costmap]: Creating Costmap
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/planner_server' in container '/nav2_container'
+[component_container_isolated-13] [INFO] [1783131749.704085113] [nav2_container]: Load Library: /home/wheeltec/wheeltec_ros2/install/nav2_behaviors/lib/libbehavior_server_core.so
+[component_container_isolated-13] [INFO] [1783131749.749727602] [lifecycle_manager_localization]: Server map_server connected with bond.
+[component_container_isolated-13] [INFO] [1783131749.749888603] [lifecycle_manager_localization]: [34m[1mActivating amcl[0m[0m
+[component_container_isolated-13] [INFO] [1783131749.750562563] [amcl]: Activating
+[component_container_isolated-13] [INFO] [1783131749.750716438] [amcl]: initialPoseReceived
+[component_container_isolated-13] [INFO] [1783131749.752444151] [amcl]: Setting pose (1783131749.752429): 0.000 0.000 0.000
+[component_container_isolated-13] [INFO] [1783131749.754583739] [amcl]: Creating bond (amcl) to lifecycle manager.
+[component_container_isolated-13] [INFO] [1783131749.762369509] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<behavior_server::BehaviorServer>
+[component_container_isolated-13] [INFO] [1783131749.762521384] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<behavior_server::BehaviorServer>
+[nav2_waypoint_cycle-1] stty: 'standard input': Inappropriate ioctl for device
+[ekf_node-5] Failed to meet update rate! Took 2.0183762220000001086seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-5] Failed to meet update rate! Took 0.33188203700000001861seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[component_container_isolated-13] [INFO] [1783131752.775420131] [amcl]: createLaserObject
+[ekf_node-5] Failed to meet update rate! Took 1.9744885430000000959seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-5] Failed to meet update rate! Took 2.8131797149999999696seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[component_container_isolated-13] [ERROR] [1783131763.967523506] [lifecycle_manager_localization]: Server amcl was unable to be reached after 4.00s by bond. This server may be misconfigured.
+[component_container_isolated-13] [ERROR] [1783131763.968097674] [lifecycle_manager_localization]: Failed to bring up all requested nodes. Aborting bringup.
+[ekf_node-5] Failed to meet update rate! Took 4.7736477180000003173seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-5] Failed to meet update rate! Took 3.4498068939999999571seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-5] Failed to meet update rate! Took 0.67398296300000004599seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[component_container_isolated-13] [INFO] [1783131772.142133431] [behavior_server]: 
+[component_container_isolated-13] 	behavior_server lifecycle node launched. 
+[component_container_isolated-13] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-13] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/behavior_server' in container '/nav2_container'
+[component_container_isolated-13] [INFO] [1783131772.190536589] [nav2_container]: Load Library: /home/wheeltec/wheeltec_ros2/install/nav2_bt_navigator/lib/libbt_navigator_core.so
+[component_container_isolated-13] [INFO] [1783131772.217755446] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_bt_navigator::BtNavigator>
+[component_container_isolated-13] [INFO] [1783131772.217907780] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_bt_navigator::BtNavigator>
+[ekf_node-5] Failed to meet update rate! Took 1.7535825240000000314seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-5] Failed to meet update rate! Took 2.2431798449999997835seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[component_container_isolated-13] [WARN] [1783131779.758983511] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[ekf_node-5] Failed to meet update rate! Took 0.72354922399999999083seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[component_container_isolated-13] [INFO] [1783131781.805098761] [bt_navigator]: 
+[component_container_isolated-13] 	bt_navigator lifecycle node launched. 
+[component_container_isolated-13] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-13] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-13] [INFO] [1783131781.805428761] [bt_navigator]: Creating
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/bt_navigator' in container '/nav2_container'
+[component_container_isolated-13] [INFO] [1783131781.824289515] [nav2_container]: Load Library: /home/wheeltec/wheeltec_ros2/install/nav2_waypoint_follower/lib/libwaypoint_follower_core.so
+[component_container_isolated-13] [INFO] [1783131781.836383543] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_waypoint_follower::WaypointFollower>
+[component_container_isolated-13] [INFO] [1783131781.836538460] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_waypoint_follower::WaypointFollower>
+[ekf_node-5] Failed to meet update rate! Took 0.7034507150000000042seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-5] Failed to meet update rate! Took 0.34356247699999997725seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-5] Failed to meet update rate! Took 0.69308100200000000157seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-5] Failed to meet update rate! Took 0.20458864399999998618seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[component_container_isolated-13] [INFO] [1783131793.271928372] [waypoint_follower]: 
+[component_container_isolated-13] 	waypoint_follower lifecycle node launched. 
+[component_container_isolated-13] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-13] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-13] [INFO] [1783131793.284754318] [waypoint_follower]: Creating
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/waypoint_follower' in container '/nav2_container'
+[component_container_isolated-13] [INFO] [1783131793.301121773] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_lifecycle_manager::LifecycleManager>
+[component_container_isolated-13] [INFO] [1783131793.301259232] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_lifecycle_manager::LifecycleManager>
+[component_container_isolated-13] [INFO] [1783131794.007654298] [lifecycle_manager_navigation]: Creating
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/lifecycle_manager_navigation' in container '/nav2_container'
+[component_container_isolated-13] [INFO] [1783131794.032250689] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[component_container_isolated-13] [INFO] [1783131797.513627497] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[component_container_isolated-13] [INFO] [1783131797.513816248] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[component_container_isolated-13] [INFO] [1783131797.514506291] [controller_server]: Configuring controller interface
+[component_container_isolated-13] [INFO] [1783131797.515860711] [controller_server]: getting goal checker plugins..
+[component_container_isolated-13] [INFO] [1783131797.517558173] [controller_server]: Controller frequency set to 20.0000Hz
+[component_container_isolated-13] [INFO] [1783131797.517880924] [local_costmap.local_costmap]: Configuring
+[component_container_isolated-13] [INFO] [1783131797.863518809] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[component_container_isolated-13] [INFO] [1783131797.924737451] [local_costmap.local_costmap]: Subscribed to Topics: scan scan2
+[component_container_isolated-13] [INFO] [1783131798.038060214] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[component_container_isolated-13] [INFO] [1783131798.038223006] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[component_container_isolated-13] [INFO] [1783131798.048944531] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[component_container_isolated-13] [INFO] [1783131798.124824749] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[component_container_isolated-13] [INFO] [1783131798.134115728] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[component_container_isolated-13] [INFO] [1783131798.137721195] [controller_server]: Controller Server has general_goal_checker  goal checkers available.
+[component_container_isolated-13] [INFO] [1783131798.176235451] [controller_server]: Created controller : FollowPath of type nav2_rotation_shim_controller::RotationShimController
+[component_container_isolated-13] [INFO] [1783131798.203343430] [controller_server]: Created internal controller for rotation shimming: FollowPath of type nav2_mppi_controller::MPPIController
+[component_container_isolated-13] [INFO] [1783131798.224230104] [controller_server]: Controller period is equal to model dt. Control sequence shifting is ON
+[component_container_isolated-13] [INFO] [1783131798.252503294] [controller_server]: ConstraintCritic instantiated with 1 power and 4.000000 weight.
+[component_container_isolated-13] [INFO] [1783131798.252710670] [controller_server]: Critic loaded : mppi::critics::ConstraintCritic
+[component_container_isolated-13] [INFO] [1783131798.266776827] [controller_server]: ObstaclesCritic instantiated with 1 power and 30.000000 / 1.500000 weights. Critic will collision check based on circular cost.
+[component_container_isolated-13] [INFO] [1783131798.266982453] [controller_server]: Critic loaded : mppi::critics::ObstaclesCritic
+[component_container_isolated-13] [INFO] [1783131798.272270674] [controller_server]: GoalCritic instantiated with 1 power and 15.000000 weight.
+[component_container_isolated-13] [INFO] [1783131798.272447591] [controller_server]: Critic loaded : mppi::critics::GoalCritic
+[component_container_isolated-13] [INFO] [1783131798.277219060] [controller_server]: GoalAngleCritic instantiated with 1 power, 3.000000 weight, and 0.500000 angular threshold.
+[component_container_isolated-13] [INFO] [1783131798.277386144] [controller_server]: Critic loaded : mppi::critics::GoalAngleCritic
+[component_container_isolated-13] [INFO] [1783131798.288024918] [controller_server]: ReferenceTrajectoryCritic instantiated with 1 power and 25.000000 weight
+[component_container_isolated-13] [INFO] [1783131798.288206460] [controller_server]: Critic loaded : mppi::critics::PathAlignCritic
+[component_container_isolated-13] [INFO] [1783131798.295253268] [controller_server]: Critic loaded : mppi::critics::PathFollowCritic
+[component_container_isolated-13] [INFO] [1783131798.305713793] [controller_server]: PathAngleCritic instantiated with 1 power and 4.000000 weight. Reversing allowed.
+[component_container_isolated-13] [INFO] [1783131798.305870751] [controller_server]: Critic loaded : mppi::critics::PathAngleCritic
+[component_container_isolated-13] [INFO] [1783131798.312427183] [controller_server]: PreferForwardCritic instantiated with 1 power and 1.500000 weight.
+[component_container_isolated-13] [INFO] [1783131798.312593392] [controller_server]: Critic loaded : mppi::critics::PreferForwardCritic
+[component_container_isolated-13] [INFO] [1783131798.317897154] [controller_server]: Optimizer reset
+[component_container_isolated-13] [INFO] [1783131798.351000314] [MPPIController]: Configured MPPI Controller: FollowPath
+[component_container_isolated-13] [INFO] [1783131798.351152565] [controller_server]: Controller Server has FollowPath  controllers available.
+[component_container_isolated-13] [INFO] [1783131798.413276292] [lifecycle_manager_navigation]: [34m[1mConfiguring smoother_server[0m[0m
+[component_container_isolated-13] [INFO] [1783131798.413908752] [smoother_server]: Configuring smoother server
+[component_container_isolated-13] [INFO] [1783131798.495305732] [smoother_server]: Created smoother : simple_smoother of type nav2_smoother::SimpleSmoother
+[component_container_isolated-13] [INFO] [1783131798.502158706] [smoother_server]: Smoother Server has simple_smoother  smoothers available.
+[component_container_isolated-13] [INFO] [1783131798.577813923] [lifecycle_manager_navigation]: [34m[1mConfiguring planner_server[0m[0m
+[component_container_isolated-13] [INFO] [1783131798.578299258] [planner_server]: Configuring
+[component_container_isolated-13] [INFO] [1783131798.578518508] [global_costmap.global_costmap]: Configuring
+[component_container_isolated-13] [INFO] [1783131798.618207225] [global_costmap.global_costmap]: Using plugin "static_layer"
+[component_container_isolated-13] [INFO] [1783131798.631505589] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[component_container_isolated-13] [INFO] [1783131798.637367019] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[component_container_isolated-13] [INFO] [1783131798.637513311] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[component_container_isolated-13] [INFO] [1783131798.652345471] [global_costmap.global_costmap]: Subscribed to Topics: scan scan2
+[component_container_isolated-13] [INFO] [1783131798.706410263] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 155 X 271 at 0.050000 m/pix
+[component_container_isolated-13] [INFO] [1783131798.725997683] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[component_container_isolated-13] [INFO] [1783131798.726141475] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[component_container_isolated-13] [INFO] [1783131798.734925787] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[component_container_isolated-13] [INFO] [1783131798.831725678] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[component_container_isolated-13] [INFO] [1783131798.831937262] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[component_container_isolated-13] [INFO] [1783131798.837792109] [planner_server]: Planner Server has GridBased  planners available.
+[component_container_isolated-13] [INFO] [1783131799.006204207] [lifecycle_manager_navigation]: [34m[1mConfiguring behavior_server[0m[0m
+[component_container_isolated-13] [INFO] [1783131799.006830501] [behavior_server]: Configuring
+[component_container_isolated-13] [INFO] [1783131799.114453750] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors/Spin
+[component_container_isolated-13] [INFO] [1783131799.128487407] [behavior_server]: Configuring spin
+[component_container_isolated-13] [INFO] [1783131799.329563955] [behavior_server]: Creating behavior plugin backup of type nav2_behaviors/BackUp
+[component_container_isolated-13] [INFO] [1783131799.341307274] [behavior_server]: Configuring backup
+[component_container_isolated-13] [INFO] [1783131799.426161179] [behavior_server]: Creating behavior plugin drive_on_heading of type nav2_behaviors/DriveOnHeading
+[component_container_isolated-13] [INFO] [1783131799.438501708] [behavior_server]: Configuring drive_on_heading
+[component_container_isolated-13] [INFO] [1783131799.531450506] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors/Wait
+[component_container_isolated-13] [INFO] [1783131799.543256992] [behavior_server]: Configuring wait
+[component_container_isolated-13] [INFO] [1783131799.619008000] [lifecycle_manager_navigation]: [34m[1mConfiguring bt_navigator[0m[0m
+[component_container_isolated-13] [INFO] [1783131799.619564460] [bt_navigator]: Configuring
+[component_container_isolated-13] [INFO] [1783131801.110876906] [lifecycle_manager_navigation]: [34m[1mConfiguring waypoint_follower[0m[0m
+[component_container_isolated-13] [INFO] [1783131801.111446532] [waypoint_follower]: Configuring
+[component_container_isolated-13] [INFO] [1783131801.371698382] [waypoint_follower]: Created waypoint_task_executor : wait_at_waypoint of type nav2_waypoint_follower::WaitAtWaypoint
+[component_container_isolated-13] [INFO] [1783131801.377478270] [lifecycle_manager_navigation]: [34m[1mActivating controller_server[0m[0m
+[component_container_isolated-13] [INFO] [1783131801.378016272] [controller_server]: Activating
+[component_container_isolated-13] [INFO] [1783131801.378218064] [local_costmap.local_costmap]: Activating
+[component_container_isolated-13] [INFO] [1783131801.378318022] [local_costmap.local_costmap]: Checking transform
+[component_container_isolated-13] [INFO] [1783131801.378679857] [local_costmap.local_costmap]: start
+[component_container_isolated-13] [INFO] [1783131801.624313090] [controller_server]: Activating controller: FollowPath of type nav2_rotation_shim_controller::RotationShimController
+[component_container_isolated-13] [WARN] [1783131801.624808258] [controller_server]: Parameter controller_server.verbose not found
+[component_container_isolated-13] [INFO] [1783131801.636178409] [controller_server]: Optimizer reset
+[component_container_isolated-13] [INFO] [1783131801.639247583] [MPPIController]: Activated MPPI Controller: FollowPath
+[component_container_isolated-13] [INFO] [1783131801.639518875] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[component_container_isolated-13] [INFO] [1783131801.766746585] [lifecycle_manager_navigation]: Server controller_server connected with bond.
+[component_container_isolated-13] [INFO] [1783131801.766915960] [lifecycle_manager_navigation]: [34m[1mActivating smoother_server[0m[0m
+[component_container_isolated-13] [INFO] [1783131801.767934213] [smoother_server]: Activating
+[component_container_isolated-13] [INFO] [1783131801.768170838] [smoother_server]: Creating bond (smoother_server) to lifecycle manager.
+[component_container_isolated-13] [INFO] [1783131801.888532991] [lifecycle_manager_navigation]: Server smoother_server connected with bond.
+[component_container_isolated-13] [INFO] [1783131801.888725033] [lifecycle_manager_navigation]: [34m[1mActivating planner_server[0m[0m
+[component_container_isolated-13] [INFO] [1783131801.889774077] [planner_server]: Activating
+[component_container_isolated-13] [INFO] [1783131801.890113453] [global_costmap.global_costmap]: Activating
+[component_container_isolated-13] [INFO] [1783131801.890223495] [global_costmap.global_costmap]: Checking transform
+[component_container_isolated-13] [INFO] [1783131801.890980080] [global_costmap.global_costmap]: start
+[component_container_isolated-13] [INFO] [1783131802.905375458] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[component_container_isolated-13] [INFO] [1783131802.920282201] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[component_container_isolated-13] [INFO] [1783131803.046172907] [lifecycle_manager_navigation]: Server planner_server connected with bond.
+[component_container_isolated-13] [INFO] [1783131803.046412908] [lifecycle_manager_navigation]: [34m[1mActivating behavior_server[0m[0m
+[component_container_isolated-13] [INFO] [1783131803.047680411] [behavior_server]: Activating
+[component_container_isolated-13] [INFO] [1783131803.047930494] [behavior_server]: Activating spin
+[component_container_isolated-13] [INFO] [1783131803.048136287] [behavior_server]: Activating backup
+[component_container_isolated-13] [INFO] [1783131803.048290662] [behavior_server]: Activating drive_on_heading
+[component_container_isolated-13] [INFO] [1783131803.048410496] [behavior_server]: Activating wait
+[component_container_isolated-13] [INFO] [1783131803.048549579] [behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[component_container_isolated-13] [INFO] [1783131803.172102988] [lifecycle_manager_navigation]: Server behavior_server connected with bond.
+[component_container_isolated-13] [INFO] [1783131803.172242072] [lifecycle_manager_navigation]: [34m[1mActivating bt_navigator[0m[0m
+[component_container_isolated-13] [INFO] [1783131803.173073116] [bt_navigator]: Activating
+[component_container_isolated-13] [INFO] [1783131809.350099218] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[component_container_isolated-13] [INFO] [1783131809.474841919] [lifecycle_manager_navigation]: Server bt_navigator connected with bond.
+[component_container_isolated-13] [INFO] [1783131809.474981419] [lifecycle_manager_navigation]: [34m[1mActivating waypoint_follower[0m[0m
+[component_container_isolated-13] [INFO] [1783131809.475853005] [waypoint_follower]: Activating
+[component_container_isolated-13] [INFO] [1783131809.476087297] [waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[component_container_isolated-13] [INFO] [1783131809.611876356] [lifecycle_manager_navigation]: Server waypoint_follower connected with bond.
+[component_container_isolated-13] [INFO] [1783131809.612028065] [lifecycle_manager_navigation]: [34m[1mManaged nodes are active[0m[0m
+[component_container_isolated-13] [INFO] [1783131809.612226482] [lifecycle_manager_navigation]: [34m[1mCreating bond timer...[0m[0m
+[ekf_node-5] Failed to meet update rate! Took 1.8754330779999999201seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[component_container_isolated-13] [INFO] [1783131862.277611257] [bt_navigator]: Begin navigating from current location to (3.97, -0.82)
+[component_container_isolated-13] [INFO] [1783131862.300331680] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-13] [WARN] [1783131862.300606639] [controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded general_goal_checker . This warning will appear once.
+[component_container_isolated-13] [ERROR] [1783131862.404021399] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the future.  Requested time 1783131862.301419 but the latest data is at time 1783131862.295098, when looking up transform from frame [map] to frame [base_footprint]
+[component_container_isolated-13] 
+[component_container_isolated-13] [INFO] [1783131862.409135993] [controller_server]: Optimizer reset
+[component_container_isolated-13] [WARN] [1783131862.498650933] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[component_container_isolated-13] [WARN] [1783131862.656853976] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[component_container_isolated-13] [WARN] [1783131862.739460109] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[component_container_isolated-13] [WARN] [1783131862.823725870] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[component_container_isolated-13] [WARN] [1783131863.055093943] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[component_container_isolated-13] [WARN] [1783131863.768206950] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[component_container_isolated-13] [INFO] [1783131863.868292744] [controller_server]: Passing new path to controller.
+[component_container_isolated-13] [WARN] [1783131864.034045719] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[component_container_isolated-13] [WARN] [1783131864.211076426] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[component_container_isolated-13] [WARN] [1783131864.287425004] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[component_container_isolated-13] [WARN] [1783131864.464879253] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[component_container_isolated-13] [WARN] [1783131864.543722920] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[component_container_isolated-13] [WARN] [1783131866.707891771] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[component_container_isolated-13] [INFO] [1783131866.710552818] [controller_server]: Optimizer reset
+[component_container_isolated-13] [WARN] [1783131866.878970547] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[component_container_isolated-13] [WARN] [1783131867.039006259] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[component_container_isolated-13] [INFO] [1783131867.039164051] [controller_server]: Passing new path to controller.
+[component_container_isolated-13] [ERROR] [1783131867.142250268] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the future.  Requested time 1783131867.039604 but the latest data is at time 1783131866.999799, when looking up transform from frame [map] to frame [base_footprint]
+[component_container_isolated-13] 
+[component_container_isolated-13] [WARN] [1783131867.226911987] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[component_container_isolated-13] [WARN] [1783131868.289014385] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[component_container_isolated-13] [WARN] [1783131868.525031964] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[component_container_isolated-13] [INFO] [1783131868.625130549] [controller_server]: Passing new path to controller.
+[component_container_isolated-13] [ERROR] [1783131868.728014973] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the future.  Requested time 1783131868.625814 but the latest data is at time 1783131868.595335, when looking up transform from frame [map] to frame [base_footprint]
+[component_container_isolated-13] 
+[component_container_isolated-13] [WARN] [1783131868.811452232] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[component_container_isolated-13] [WARN] [1783131869.484891477] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[component_container_isolated-13] [INFO] [1783131869.584990604] [controller_server]: Passing new path to controller.
+[component_container_isolated-13] [WARN] [1783131869.704329937] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[component_container_isolated-13] [WARN] [1783131870.139294974] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[component_container_isolated-13] [WARN] [1783131870.729139542] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[component_container_isolated-13] [WARN] [1783131874.669943685] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[component_container_isolated-13] [INFO] [1783131874.672424482] [controller_server]: Optimizer reset
+[component_container_isolated-13] [WARN] [1783131875.544134255] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[component_container_isolated-13] [INFO] [1783131875.544430880] [controller_server]: Passing new path to controller.
+[component_container_isolated-13] [ERROR] [1783131875.647776429] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the future.  Requested time 1783131875.545385 but the latest data is at time 1783131874.595554, when looking up transform from frame [map] to frame [base_footprint]
+[component_container_isolated-13] 
+[component_container_isolated-13] [INFO] [1783131879.612619654] [lifecycle_manager_navigation]: [34m[1mHave not received a heartbeat from bt_navigator.[0m[0m
+[component_container_isolated-13] [ERROR] [1783131879.612773404] [lifecycle_manager_navigation]: CRITICAL FAILURE: SERVER bt_navigator IS DOWN after not receiving a heartbeat for 4000 ms. Shutting down related nodes.
+[component_container_isolated-13] [INFO] [1783131879.613061197] [lifecycle_manager_navigation]: [34m[1mTerminating bond timer...[0m[0m
+[component_container_isolated-13] [INFO] [1783131879.613113572] [lifecycle_manager_navigation]: [34m[1mResetting managed nodes...[0m[0m
+[component_container_isolated-13] [INFO] [1783131879.613157905] [lifecycle_manager_navigation]: [34m[1mDeactivating waypoint_follower[0m[0m
+[component_container_isolated-13] [INFO] [1783131879.613967574] [waypoint_follower]: Deactivating
+[component_container_isolated-13] [INFO] [1783131879.614200907] [waypoint_follower]: Destroying bond (waypoint_follower) to lifecycle manager.
+[component_container_isolated-13] [WARN] [1783131880.077089240] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[component_container_isolated-13] [ERROR] [1783131880.079104119] [controller_server]: Failed to make progress
+[component_container_isolated-13] [WARN] [1783131882.826541542] [planner_server]: Planner loop missed its desired rate of 1.0000 Hz. Current loop rate is 0.3646 Hz
+[component_container_isolated-13] [WARN] [1783131882.826875501] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[component_container_isolated-13] [INFO] [1783131883.349929870] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[component_container_isolated-13] [INFO] [1783131883.353017710] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-13] [INFO] [1783131883.433323292] [controller_server]: Passing new path to controller.
+[component_container_isolated-13] [ERROR] [1783131883.536360088] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the future.  Requested time 1783131883.434261 but the latest data is at time 1783131874.595554, when looking up transform from frame [map] to frame [base_footprint]
+[component_container_isolated-13] 
+[component_container_isolated-13] [INFO] [1783131883.538718634] [controller_server]: Optimizer reset
+[ekf_node-5] Failed to meet update rate! Took 0.33863215600000001748seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[component_container_isolated-13] [WARN] [1783131883.877039789] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[component_container_isolated-13] [INFO] [1783131883.906771934] [lifecycle_manager_navigation]: [34m[1mDeactivating bt_navigator[0m[0m
+[component_container_isolated-13] [INFO] [1783131883.907894228] [bt_navigator]: Deactivating
+[component_container_isolated-13] [WARN] [1783131883.908242478] [bt_navigator]: [navigate_to_pose] [ActionServer] Requested to deactivate server but goal is still executing. Should check if action server is running before deactivating.
+[component_container_isolated-13] [INFO] [1783131883.912177820] [bt_navigator]: Goal canceled
+[component_container_isolated-13] [WARN] [1783131883.912355279] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[component_container_isolated-13] [WARN] [1783131883.913516323] [bt_navigator]: [navigate_to_pose] [ActionServer] Stopping the thread per request.
+[component_container_isolated-13] [INFO] [1783131883.913997324] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[ekf_node-5] Failed to meet update rate! Took 2.795768538999999997seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[component_container_isolated-13] [WARN] [1783131887.591141625] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[component_container_isolated-13] [INFO] [1783131887.591337167] [controller_server]: Goal was canceled. Stopping the robot.
+[component_container_isolated-13] [WARN] [1783131887.591544959] [controller_server]: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.
+[ekf_node-5] Failed to meet update rate! Took 1.4607730370000000519seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-5] Failed to meet update rate! Took 0.51630922400000001105seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[component_container_isolated-13] [ERROR] [1783131889.665106828] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1783131871.805361 but the earliest data is at time 1783131873.294829, when looking up transform from frame [base_footprint] to frame [map]
+[component_container_isolated-13] 
+[ekf_node-5] Failed to meet update rate! Took 0.56538065500000000974seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-5] Failed to meet update rate! Took 0.97847099800000003622seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[component_container_isolated-13] [ERROR] [1783131890.896391801] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1783131871.805361 but the earliest data is at time 1783131873.294829, when looking up transform from frame [base_footprint] to frame [map]
+[component_container_isolated-13] 
+[component_container_isolated-13] [ERROR] [1783131891.363010211] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1783131871.805361 but the earliest data is at time 1783131881.199382, when looking up transform from frame [base_footprint] to frame [map]
+[component_container_isolated-13] 
+[component_container_isolated-13] [ERROR] [1783131891.896221465] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1783131871.805361 but the earliest data is at time 1783131881.795012, when looking up transform from frame [base_footprint] to frame [map]
+[component_container_isolated-13] 
+[component_container_isolated-13] [ERROR] [1783131892.896872129] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1783131871.805361 but the earliest data is at time 1783131882.797757, when looking up transform from frame [base_footprint] to frame [map]
+[component_container_isolated-13] 
+[component_container_isolated-13] [ERROR] [1783131896.063432271] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1783131871.805361 but the earliest data is at time 1783131886.439580, when looking up transform from frame [base_footprint] to frame [map]
+[component_container_isolated-13] 
+[ekf_node-5] Failed to meet update rate! Took 1.3341682340000000639seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[ekf_node-5] Failed to meet update rate! Took 0.97472875500000000226seconds. Try decreasing the rate, limiting sensor output frequency, or limiting the number of sensors.
+[component_container_isolated-13] [INFO] [1783131904

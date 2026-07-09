@@ -1,0 +1,26 @@
+image_width: 640
+image_height: 480
+camera_name: c100_camera
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [302.7048929342819, 0.0, 298.6791162335703,
+         0.0, 302.2019683382837, 234.9714757570849,
+         0.0, 0.0, 1.0]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [0.0, 0.0, 0.0, 0.0, 0.0]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1.0, 0.0, 0.0,
+         0.0, 1.0, 0.0,
+         0.0, 0.0, 1.0]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [302.7048929342819, 0.0, 298.6791162335703, 0.0,
+         0.0, 302.2019683382837, 234.9714757570849, 0.0,
+         0.0, 0.0, 1.0, 0.0]
