@@ -1,4 +1,4 @@
-# OpenClaw-RDKX5 多模态跨楼层巡检系统
+# 基于OpenClaw-RDKX5 多模态跨楼层巡检系统
 
 基于 **RDK X5 + ROS 2 + OpenClaw + Qwen3-VL** 的全自动工业仪表巡检与识别系统。
 
