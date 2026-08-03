@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 日志
+*.log
+log/
+
+# 系统
+.DS_Store
+
+# 模型文件（体积大，不随仓库分发）
+*.onnx
+*.bin
