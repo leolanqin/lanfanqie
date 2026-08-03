@@ -112,7 +112,7 @@ openclaw_server 发布 /next_floor（目标楼层）
 ### 硬件要求
 
 - **RDK X5** 开发者套件（主控，10 TOPS，BPU 加速）
-- wheeltec 移动底盘 + 前后两路 USB 摄像头
+- 通用 ROS 2 移动底盘 + 前后两路 USB 摄像头
 - 电梯环境（多楼层场景，地图见 `stm32_map/maps/`）
 
 ### 依赖
@@ -127,10 +127,11 @@ openclaw_server 发布 /next_floor（目标楼层）
 
 ```bash
 # 1. 将仓库放到 ROS 2 工作空间
-cd ~/wheeltec_ros2/src && git clone https://github.com/leolanqin/lanfanqie
+# 进入你的 ROS 2 工作空间（路径以实际环境为准）
+cd ~/ros2_ws/src && git clone https://github.com/leolanqin/lanfanqie
 
 # 2. 构建
-cd ~/wheeltec_ros2 && colcon build --packages-select camera_bringup yolov5_detect yolo_msgs robot_elevator stm32_map openclaw_server
+cd ~/ros2_ws && colcon build --packages-select camera_bringup yolov5_detect yolo_msgs robot_elevator stm32_map openclaw_server
 
 # 3. 启动摄像头（前/后）
 ros2 launch camera_bringup demo1.launch.py
