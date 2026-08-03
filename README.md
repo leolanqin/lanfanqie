@@ -162,7 +162,7 @@ OpenClaw 部署参考：https://developer.aliyun.com/article/1710314
 
 ## 第三方开源项目
 
-- **[Pointer-Reading-based-on-YOLO](https://github.com/)**：指针式仪表 4 关键点检测（Center/Start/End/Tip）的训练与推理思路参考
+- **[Pointer-Reading-based-on-YOLO](https://github.com/Flora233333/Pointer-Reading-based-on-YOLO)**：指针式仪表 4 关键点检测（Center/Start/End/Tip）的训练与推理思路参考
 - **YOLOv5 / YOLOv8**：检测模型基础
 - **TogetheROS.Bot**：RDK 机器人中间件
 - **Nav2 / slam_toolbox**：导航与建图
